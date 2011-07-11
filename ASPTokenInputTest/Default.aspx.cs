@@ -17,16 +17,12 @@ namespace ASPTokenInputTest
 
         protected void btnFullPostback_Click(object sender, EventArgs e)
         {
-            lbList1.Items.Clear();
-            foreach (ASPTokenInput.Item item in tiTest1.Items)
-                lbList1.Items.Add(new ListItem(item.name, Convert.ToString(item.id)));
+            lbList1.Items.Add("Full postback triggered");
         }
 
         protected void btnPartialPostback_Click(object sender, EventArgs e)
         {
-            lbList2.Items.Clear();
-            foreach (ASPTokenInput.Item item in tiTest2.Items)
-                lbList2.Items.Add(new ListItem(item.name, Convert.ToString(item.id)));
+            lbList2.Items.Add("Partial postback triggered");
         }
 
         protected void tiTest1_ListChanged(object sender, ASPTokenInput.ListChangedEventArgs e)

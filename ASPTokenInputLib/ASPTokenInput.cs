@@ -88,16 +88,16 @@ namespace ASPTokenInputLib
 
                 JSONObject opts = new JSONObject();
 
-                opts.AddValueMember("hintText", this.HintText, "Type to search (Space to view all)...");
+                opts.AddValueMember("hintText", this.HintText, null);
                 opts.AddValueMember("noResultsText", this.NoResultsText, null);
                 opts.AddValueMember("searchingText", this.SearchingText, null);
                 opts.AddValueMember("deleteText", this.DeleteText, null);
-                opts.AddValueMember("theme", this.Theme, "facebook");
+                opts.AddValueMember("theme", this.Theme, null);
                 opts.AddValueMember("animateDropdown", this.AnimateDropdown, null);
-                opts.AddValueMember("searchDelay", this.SearchDelay, 500);
-                opts.AddValueMember("minChars", this.MinChars, 1);
+                opts.AddValueMember("searchDelay", this.SearchDelay, null);
+                opts.AddValueMember("minChars", this.MinChars, null);
                 opts.AddValueMember("tokenLimit", this.TokenLimit, null);
-                opts.AddValueMember("preventDuplicates", this.PreventDuplicates, true);
+                opts.AddValueMember("preventDuplicates", this.PreventDuplicates, null);
                 opts.AddValueMember("jsonContainer", this.JSONContainer, null);
                 opts.AddValueMember("method", this.Method, null);
                 opts.AddValueMember("queryParam", this.QueryParam, null);
