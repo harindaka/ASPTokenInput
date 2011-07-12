@@ -31,15 +31,6 @@ namespace ASPTokenInputTest {
         protected global::ASPTokenInputLib.ASPTokenInput tiTest1;
         
         /// <summary>
-        /// btnFullPostback control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnFullPostback;
-        
-        /// <summary>
         /// lbList1 control.
         /// </summary>
         /// <remarks>
@@ -47,6 +38,15 @@ namespace ASPTokenInputTest {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ListBox lbList1;
+        
+        /// <summary>
+        /// btnFullPostback control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnFullPostback;
         
         /// <summary>
         /// upPanel control.
@@ -67,15 +67,6 @@ namespace ASPTokenInputTest {
         protected global::ASPTokenInputLib.ASPTokenInput tiTest2;
         
         /// <summary>
-        /// btnPartialPostback control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPartialPostback;
-        
-        /// <summary>
         /// lbList2 control.
         /// </summary>
         /// <remarks>
@@ -83,5 +74,14 @@ namespace ASPTokenInputTest {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ListBox lbList2;
+        
+        /// <summary>
+        /// btnPartialPostback control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnPartialPostback;
     }
 }
