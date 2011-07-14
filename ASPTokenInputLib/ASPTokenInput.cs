@@ -52,6 +52,11 @@ namespace ASPTokenInputLib
 
         TextBox _txtText;
         HiddenField _hfPersist;
+
+        public ASPTokenInput()
+        {
+            
+        }
         
         protected override void CreateChildControls()
         {
