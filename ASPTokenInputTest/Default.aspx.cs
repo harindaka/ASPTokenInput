@@ -82,7 +82,7 @@ namespace ASPTokenInputTest
             else
                 txtTokenLimit.Text = "You entered an invalid value";
 
-            tiTest1.PreventDuplicates = chkPreventDuplicates.Checked;
+            tiTest2.PreventDuplicates = chkPreventDuplicates.Checked;
             
             lbList2.Items.Add("Properties Set.");
         }

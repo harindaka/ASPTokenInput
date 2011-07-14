@@ -22,7 +22,7 @@ namespace ASPTokenInputTest
                 from c in
                     countriesArray.Select((item, index) => new { id = index, name = item })
                     .Where(p => p.name.IndexOf(filter, StringComparison.InvariantCultureIgnoreCase) >= 0)
-                select new { id = c.id, name = c.name };
+                select new { id = Convert.ToString(c.id), name = c.name };
 
             return new JavaScriptSerializer().Serialize(query);
         }
@@ -31,6 +31,8 @@ namespace ASPTokenInputTest
         {
             //Check if logged in
             string filter = this.Request.QueryString["q"];
+            if(String.IsNullOrEmpty(filter))
+                this.Response.Redirect("~/Default.aspx");
 
             string list = this.GetCountries(filter);
             this.Response.Clear();

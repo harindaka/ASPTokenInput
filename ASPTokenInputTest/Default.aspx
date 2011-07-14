@@ -24,7 +24,7 @@
         <br />
         <table style="border-style: solid; border-color: Black; border-width: 1px; width: 100%;">
             <tr>
-                <td style="vertical-align: top; border-style: solid; border-color: Black; border-width: 1px; padding:10px">
+                <td style="width:50%; vertical-align: top; border-style: solid; border-color: Black; border-width: 1px; padding:10px">
                     <span style="font-weight: bold">ASPTokenInput Outside UpdatePanel</span><br/>
                     <ati:ASPTokenInput ID="tiTest1" runat="server" RequestHandlerPath="~/ItemList.aspx"
                         OnListChanged="tiTest1_ListChanged" PostbackOnItemAdded="True" PostbackOnItemRemoved="True" HintText="Start Typing Country Names..."/>
@@ -33,7 +33,7 @@
                     <br /><br />
                     <asp:Button ID="btnFullPostback" runat="server" Text="Trigger Full Postback" OnClick="btnFullPostback_Click" /> 
                 </td>
-                <td style="vertical-align: top; border-style: solid; border-color: Black; border-width: 1px; padding:10px">
+                <td style="width:50%; vertical-align: top; border-style: solid; border-color: Black; border-width: 1px; padding:10px">
                     <asp:UpdatePanel ID="upPanel" runat="server" UpdateMode="Conditional">
                         <ContentTemplate>
                             <span style="font-weight: bold">ASPTokenInput Inside UpdatePanel</span><br/>

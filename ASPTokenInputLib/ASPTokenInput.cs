@@ -12,7 +12,7 @@ namespace ASPTokenInputLib
         [Serializable]
         public class Item
         {
-            public object id { get; set; }
+            public string id { get; set; }
             public string name { get; set; }
         }
 
@@ -63,7 +63,6 @@ namespace ASPTokenInputLib
             base.CreateChildControls();
 
             this.Controls.Clear();
-
             _txtText = new TextBox();
             this.Controls.Add(_txtText);
 
