@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ASPTokenInputLib")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("ASPTokenInput is an ASP.Net server control which adds server side functionality, events and postback persistance to the Facebook style JQuery autocomplete plugin named TokenInput.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("harindaka.blogspot.com")]
+[assembly: AssemblyCompany("Hemal Harindaka Athulathmudali (http://harindaka.blogspot.com)")]
 [assembly: AssemblyProduct("ASPTokenInputLib")]
-[assembly: AssemblyCopyright("Copyright © harindaka.blogspot.com 2011")]
+[assembly: AssemblyCopyright("Copyright © Hemal Harindaka Athulathmudali 2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
